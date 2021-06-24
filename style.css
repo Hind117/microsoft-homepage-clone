@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a{
+    color: #262626;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 95%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.main-nav .logo{
+    width: 110px;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.main-nav ul li {
+    padding: 0 10px;
+}
+
+.main-nav ul li a:hover{
+    border-bottom: #262626 3px solid;
+}
+
+.main-nav ul li a{
+    padding-bottom: 2px;
+}
+
+.showcase h2, .showcase p {
+    margin-bottom: 10px;
+  }
+  
+  .showcase .btn {
+    margin-top: 20px;
+  }
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;;
+  }
+  
+.btn:hover {
+    opacity: 0.9;
+}
+
+.showcase {
+    width: 100%;
+    height: 500px;
+    background: url('https://i.ibb.co/zGSDGCL/slide1.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.services .service{
+    width: 150px;
+
+}
+
+.services .service p{
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.business{
+    margin-bottom: 20px;
+}
+
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 70px;
+}
+
+.home-cards img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards h3{
+    margin-bottom: 8px;
+}
+
+.home-cards p{
+    margin-bottom: 10px;
+}
+
+.home-cards a{
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(87, 87, 255);
+}
+
+.home-cards a:hover{
+    border-bottom: rgb(87, 87, 255) 3px solid;
+}
+
+.home-cards a:hover i{
+    margin-left: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.xbox{
+    height: 360px;
+    width: 100%;
+    margin-bottom: 70px;
+    background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+}
+
+.xbox .content{
+    width: 40%;
+    padding: 50px 0 0 30px;
+}
+
+.xbox p{
+    margin: 10px 0 20px;
+}
+
+.covid{
+    background: rgb(230, 229, 229);
+    height: 160px;
+}
+
+.covid .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding: 30px 0;
+}
+
+.covid .content p{
+    margin: 10px 0 10px;
+}
+.covid .content h1{
+    font-size: 33px;
+}
+.covid .content a{
+    font-weight: bold;
+}
+
+.covid .content a:hover{
+    border-bottom: #262626 3px solid;
+}
+
+.covid .content a:hover i{
+    margin-left: 4px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+  justify-content: flex-start;
+    margin: 50px 0;
+}
+.follow p{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #262626;
+}
+.follow a{
+    margin-right: 20px;
+}
+
+.links{
+    background: rgb(230, 229, 229);
+
+}
+
+.links-inner{
+    width: 95%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   padding: 40px 0;
+   line-height: 3;
+}
+
+.links-inner li h3{
+    color: #696969;
+}
+
+.links-inner li a{
+    color: #696969;
+}
+
+.footer{
+    background: rgb(230, 229, 229);
+}
+
+.footer-inner{
+    width: 95%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.footer-inner li h3{
+    color: #696969;
+}
+
+.footer-inner li a{
+    color: #696969;
+}
+
+.footer-inner div{
+    color: #696969;
+    margin-right: 15px;
+    display: flex;
+  align-items: center;
+}
+
+.footer-inner div i{
+    color: #696969;
+    padding-right: 15px;
+}
+
+.footer-inner ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-inner ul li{
+    margin-right: 30px;
+  
+}
