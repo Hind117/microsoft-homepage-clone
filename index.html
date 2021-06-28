@@ -10,6 +10,9 @@
     <script src="https://kit.fontawesome.com/b532ddf0e4.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
     <div class="container">
         <!--navbar-->
         <nav class="main-nav">
@@ -42,33 +45,45 @@
             </header>
 
             <div class="services">
+                <a href="#">
                 <div class="service service1">
                     <i class="fab fa-microsoft fa-4x"></i>
                     <p>Choose your Microsoft 365</p>
                 </div>
+            </a>
+            <a href="#">
                 <div class="service service2">
                     <i class="fas fa-laptop fa-4x"></i>
                     <p>Shop Surface divices</p>
                 </div>
+            </a>
+            <a href="#">
                 <div class="service service3">
                     <i class="fab fa-xbox fa-4x"></i>
                     <p>Shop Xbox</p>
                 </div>
+            </a>
+            <a href="#">
                 <div class="service service4">
                     <i class="fab fa-windows fa-4x"></i>
                     <p>Shop Windows 10</p>
                 </div>
+            </a>
             </div>
         
 
         <!--cards-->
         <section class="home-cards">
+            
             <div>
+                
                 <img src="images/box1.webp" alt="">
                 <h3>Surface Laptop Go</h3>
                 <p>Make the most of every day with the sleek style and performance of our lightest Surface laptop.</p>
                 <a href="#">Shop now <i class="fas fa-chevron-right"></i></a>
+           
             </div>
+        
             <div>
                 <img src="images/box2.webp" alt="">
                 <h3>New Surface Laptop 4</h3>
@@ -221,5 +236,9 @@
         </div>
     </footer>
     
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+    </script>
 </body>
+
 </html>
